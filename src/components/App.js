@@ -13,42 +13,18 @@ export default function App() {
     
     <div id="home">
       <nav className="navbar navbar-light">
-    <Router>
       <ul className="nav navbar-nav">
           <li>
-            <Link to="/">Home</Link>
+            { /*Home */}
           </li>
           <li>
-            <Link to="/">Shapes</Link>
+            {/*Shapes*/}
           </li>
           <li>
-           <Link to="/">Image</Link>
+            {/*Image*/}
           </li>
         </ul>
       </nav>
-      <Switch>
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/Shapes" component={Shapes}/>
-        <Route exact path="/Image" component={Image}/>
-      </Switch>
-    </Router>
-        
-      
-          
-        
-
-        
-          
-            
-              
-            
-         
-      
-        
-      
-        
-        
-      
     </div>
       
   );
